@@ -111,12 +111,12 @@ char js_Int_to_Char(int IntToConv);
 
 /************************   CONSTANT DEFINITIONS   ************************/
 
-//for boolean operations
+//Boolean TRUE
 #ifndef TRUE
 #define TRUE 1
 #endif //ifndef TRUE
 
-//for boolean operations
+//Boolean FALSE
 #ifndef FALSE
 #define FALSE 0
 #endif //ifndef FALSE
