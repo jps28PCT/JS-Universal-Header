@@ -37,7 +37,7 @@
 /*****************************************************************************
  * This function formats a double number in engineering notation, from yocto- 
  * (10^-24) to yotta- (10^24).
- * String is 9 chars long, and is always right-justified so the prefix is 
+ * String is 15 chars long, and is always right-justified so the prefix is 
  * always the 9th char
  *
  * @param	returnStr is the pointer to the string to pass the formatted 
@@ -258,5 +258,6 @@ char js_Int_to_Char(int IntToConv){
 	}
 
 	return CharToRet;						//Returns ASCII char representation of int
+
 
 }//END js_Int_to_Char()
