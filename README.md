@@ -6,7 +6,7 @@ I have no idea if this is good coding practice or not, but I am trying to avoid 
 <details>
   <summary> `int js_Eng_Not(char returnStr[15], double inputNum, int sigFigs)`</summary>
 
-This function formats a double number in engineering notation, from yocto- (10^-24) to yotta- (10^24). String is 15 chars long, and is always right-justified so the prefix is always the 9th char.
+This function formats a double number in engineering notation, from yocto- (10^-24^) to yotta- (10^24^). String is 15 chars long, and is always right-justified so the prefix is always the 9th char.
 
   Passed inputs:
   - `char returnStr[15]`  is the pointer to the string to pass the formatted string back to.
