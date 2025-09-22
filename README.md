@@ -4,7 +4,8 @@ I have no idea if this is good coding practice or not, but I am trying to avoid 
 
 ## Functions:
 <details>
-  <summary> `int js_Eng_Not(char returnStr[15], double inputNum, int sigFigs)`</summary>
+  <summary> <h4>int js_Eng_Not(char returnStr[15], double inputNum, int sigFigs)</h4></summary>
+
 
 This function formats a double number in engineering notation, from yocto- (10<sup>-24</sup>) to yotta- (10<sup>24</sup>). String is 15 chars long, and is always right-justified so the prefix is always the 9th char.
 
